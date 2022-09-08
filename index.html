@@ -5,98 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Juscelino's Personal Site</title>
+    <title>Juscelino Mamede</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td><img src="image/foto.png" alt="Juscelino foto" width="265px">
-                <!--alt=alternative text-->
-            </td>
-            <td>
-                <h1>Juscelino Mamede</h1>
-                <p> <em> Web development Student at <a href="https://ficr.catolica.edu.br/portal/"
-                            target="_blank"><strong>FICR
-                                College</strong></em></a></p>
-                <p> <em> Data analitycs Student at <strong>Google career certification</strong></em></p>
-                <p> Eu sou estudante de Web development em tempo integral. Desejo atuar como desenvolvedor Front-end e
-                    tenho
-                    dedicado meus ultimos meses ao aprendizado dessa área. No segundo semestre de 2022 entrei no curso
-                    superior de
-                    Sistemas para internet para ter mais conhecimento tecnicos que poderão melhorar ainda mais aquilo
-                    que já
-                    adiquiri e principalmente aprender com mestres que já atuam na área e são de grande importancia para
-                    futuros
-                    desenvolvedores. Estou a procura de um estágio na área onde eu possa aprender como o mercado
-                    funciona. </p>
-            </td>
-        </tr>
-    </table>
-    <hr size="2">
-    <h3>Formação acadêmica</h3>
-    <ul>
-        <li>Ensino médio - CEIC-PA 2003</li>
-        <li> Sistemas para internet <a
-                href="https://ficr.catolica.edu.br/portal/wp-content/uploads/2019/06/FICR-Sistemas-para-Internet-Matriz-2021.pdf" target="_blank">-Web development-</a>
-             FICR Jun/2024</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10px">
-        <!-- yu pediu pra fazer tabel usando Thead,Tbody e Tfoot, pois podemos usar css separados depois -->
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-                <th>Company</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2005-2006</td>
-                <td>Aprendiz Operacional</td>
-                <td>Vale</td>
-            </tr>
-            <tr>
-                <td>2007</td>
-                <td>Aprendiz </td>
-                <td>Nestle</td>
-            </tr>
-            <tr>
-                <td>2008-2013</td>
-                <td>Promotor de merchandising</td>
-                <td>Nestle</td>
-            </tr>
-            <tr>
-                <td>2016-2020</td>
-                <td>Auxiliar de administrativo</td>
-                <td>FICR</td>
-        </tbody>
-        <!-- <tfoot></tfoot> apenas se precisar -->
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tbody>
-            <tr>
-                <td>Web development</td>
-                <td>⭐☆☆☆☆</td>
-                <td>English</td>
-                <td>⭐⭐⭐☆☆</td>
-            </tr>
-            <tr>
-                <td>Data analytics</td>
-                <td>⭐☆☆☆☆</td>
-                <td>Team work</td>
-                <td>⭐⭐⭐⭐⭐</td>
-        </tbody>
+    <div class="topContainer">
+        <img class="top-cloud" src="imagens/cloud.png" alt="cloud-img">
+        <!-- <h1>I'm Juscelino</h1> -->
+        <img class="my-name" src="imagens/name1.png" alt="Nome Juscelino">
+        <h2> a Web development student!</h2>
+        <img class="bottom-cloud" src="imagens/cloud.png" alt="cloud-img">
+        <img id="enemies" src="imagens/mario1.png" alt="mountain-img">
+    </div>
 
-    </table>
-    <hr size="2">
-    <a href="hobbies.html">My hobbies</a> <br>
-    <a href="contact.html">Hire me</a>
+    <div class="middle-container">
 
+        <div class="profile">
+            <img class="my-image" src="imagens/Jusce.png" alt="Juscelino-img">
+            <h2 class="hello">Olá!</h2>
+            <p class="profile-description"> Sou estudante de Web development em tempo integral. Desejo atuar como
+                desenvolvedor Front-end e venho me dedicando nos últimos meses ao aprendizado dessa área. <br>
+                No segundo semestre de 2022, entrei no curso superior de <strong><em>Tecnologia em Sistemas para
+                        Internet</strong> (Web
+                Design)</em> para ter mais conhecimentos teóricos e técnicos que estão abrindo a minha visão para um
+                novo e maravilhoso mundo. <br> No momento estou a procura de vaga para estágio na área, onde eu possa
+                aprender, aplicar e desenvolver todos os conhecimentos e habilidades adquiridos.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>Habilidades</h2>
+            <div class="skill-row">
+                <img class="skill1-img" src="imagens/css.png">
+                <h3>HTML & CSS</h3>
+                <p class="skill-desciption">O <strong>HTML</strong> é a linguagem base para se desenvolver qualquer
+                    site. É uma linguagem baseada em marcação,
+                    onde marcamos os elementos para definir quais informações a página vai exibir. A linguagem HTML foi
+                    criada na década de 1990 e suas especificações são controladas pela W3C (World Wide Web Consortium).
+                </p>
+                <p class="skill-desciption">O <strong>CSS</strong> é uma linguagem de folha de estilo composta por
+                    “camadas”, criado com o propósito de estilizar
+                    as páginas HTML, ou seja, definir a aparência das páginas, para deixá-las visualmente mais bonitas e
+                    agradáveis, podendo alterar a fonte, cor, posicionamento dos elementos, layout e muito mais.</p>
+                <p><strong><em>*Estudos iniciados e com nível básico de conhecimento.</em></strong></p>
+            </div>
+            <div class="skill-row">
+                <img class="skill2-img" src="imagens/javascript.png" alt="">
+                <h3>JavaScript</h3>
+                <p class="skill-desciption">O <strong>JavaScript</strong> é uma linguagem de programação interpretada,
+                    sendo a principal linguagem
+                    cliente-servidor em navegadores web. Ela é responsável pelo dinamismo de uma página, ou seja,
+                    promover a interação com o usuário, sendo executados do lado do cliente.</p>
+                <p><strong><em>*Por iniciar.</em></strong></p>
+            </div>
+            <div class="skill-row">
+                <img class="skill3-img" src="imagens/React-icon.png" alt="">
+                <h3>React</h3>
+                <p class="skill-desciption">O <strong>React Native</strong> é um Framework para desenvolvimento de
+                    aplicativos móveis multiplataforma.</p>
+                <p><strong><em>*Por iniciar.</em></strong></p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Meus Contatos</h2>
+            <a class="footer-link1" href="https://www.linkedin.com/in/juscelinomamede" target="_blank">LinkedIn</a>
+            <a class="footer-link2" href="https://www.instagram.com/juscelinomamede/" target="_blank">Instagram</a>
+            <a class="btn" href="mailto:juscemamede01@email.com">CONTATE ME</a>
+        </div>
+    </div>
+
+
+    <div class="bottom-container">
+        
+        <h3 class="my-sentence">I love Jesus because He first loved me.</h3>
+            <p class="Bible-verse">For God so loved the world, that he gave his only begotten Son,<br> that whosoever
+                believeth on him should
+                not perish, but have eternal life. <br>John 3:16 </p>
+        <p class="copyright">© 2022 Juscelino Mamede.</p>
+    </div>
 </body>
 
 </html>
